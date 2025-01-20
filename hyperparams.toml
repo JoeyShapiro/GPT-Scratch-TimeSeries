@@ -1,0 +1,14 @@
+[model]
+n_embd            = 240
+n_head            = 12
+n_layer           = 6
+vocab_size        = 3000
+[training]
+batch_size = 64
+learning_rate     = 3e-4
+block_size        = 27
+epochs            = 30
+eval_iterval = 512
+[regularzation]
+dropout           = 0.3
+patience = 5
